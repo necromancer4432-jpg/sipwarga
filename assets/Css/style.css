@@ -1,0 +1,279 @@
+/* reset & font */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", "Segoe UI", Arial, sans-serif;
+  color: #111;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* header (centered bubble with border) */
+#mainHeader {
+  position: fixed;
+  top: 18px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 85%;
+  z-index: 999;
+}
+.header-inner {
+  background: #fff;
+  border: 2px solid #4ae25e;
+  border-radius: 18px;
+  padding: 12px 26px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+}
+.logo {
+  font-weight: 800;
+  font-size: 20px;
+  color: #111;
+  padding-left: 6px;
+}
+
+/* nav */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 28px;
+  align-items: center;
+}
+nav a {
+  color: #222;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 6px;
+}
+nav a.active {
+  color: #000;
+  font-weight: 700;
+}
+
+/* sections basics */
+.section {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.beranda {
+  background: #42a5f5;
+  padding: 140px 6% 80px;
+  gap: 40px;
+  justify-content: space-between;
+}
+.beranda-left {
+  max-width: 520px;
+  color: #fff;
+}
+.beranda-left h2 {
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: #eaf6ff;
+  font-weight: 600;
+}
+.beranda-left h1 {
+  font-size: 36px;
+  line-height: 1.15;
+  margin-bottom: 14px;
+  font-weight: 800;
+}
+.beranda-left p {
+  color: #e7f6ff;
+  margin-bottom: 18px;
+  max-width: 460px;
+}
+
+/* tombol */
+.btns {
+  display: flex;
+  gap: 20px;
+  margin-top: 24px;
+}
+.btn {
+  padding: 12px 36px;
+  border-radius: 10px;
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+}
+.btn-daftar {
+  background: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+}
+.btn-daftar:hover {
+  background: #fff;
+  color: #4a90e2;
+}
+.btn-masuk {
+  background: #fff;
+  color: #222;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+.btn-masuk:hover {
+  background: #4a90e2;
+}
+
+/* Tentang section */
+.tentang {
+  background: #f5f8fb;
+  padding: 120px 6% 120px;
+  justify-content: center;
+}
+.tentang-box {
+  width: 80%;
+  background: #42a5f5;
+  color: #fff;
+  border-radius: 16px;
+  padding: 48px 60px;
+  box-shadow: 0 8px 30px rgba(66, 165, 245, 0.12);
+}
+.tentang-box h2 {
+  font-size: 26px;
+  margin-bottom: 12px;
+  font-weight: 800;
+}
+.tentang-box p {
+  line-height: 1.7;
+  color: #eaf4ff;
+  font-size: 15px;
+}
+
+/* Panduan section */
+.panduan {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  background: #42a5f5;
+  padding: 120px 6% 140px;
+}
+.cards {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  width: 230px;
+  height: 280px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}
+
+.card h2 {
+  margin-top: 25px;
+}
+
+.d_login {
+  font-weight: normal;
+  font-size: large;
+}
+
+.d_Beranda {
+  font-size: larger;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.d_profil {
+  font-size: large;
+  margin-top: 15px;
+}
+
+.d_keluarga {
+  font-size: large;
+  margin-top: 15px;
+}
+
+.t_panduan{
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  color: white;
+}
+
+h1{
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer{
+  background-color: whitesmoke;
+  color: #42a5f5; 
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 40px 50px;
+  font-family: 'Poppins', sans-serif;
+  flex-wrap: wrap;
+}
+
+.footer div {
+  flex: 1;
+  min-width: 250px;
+  margin-bottom: 20px;
+}
+.footer h4 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.footer p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin: 5px 0;
+}
+
+.sipwarga{
+  margin-left: 50px;
+}
+.Bantuan {
+  margin-left: 250px;
+}
+
+.kontak {
+  margin-left: 250px;
+}
+
+
+/* responsive adjustments */
+@media (max-width: 900px) {
+  .beranda {
+    flex-direction: column;
+    padding-top: 110px;
+    text-align: center;
+  }
+  .beranda-left {
+    max-width: 100%;
+  }
+  .cards {
+    flex-direction: column;
+    gap: 24px;
+  }
+  .tentang-box {
+    width: 95%;
+    padding: 28px;
+  }
+  #mainHeader {
+    width: 94%;
+  }
+}

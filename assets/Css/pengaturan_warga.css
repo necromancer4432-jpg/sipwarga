@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #f8f9fa;
+}
+
+/* Content */
+.content {
+  flex: 1;
+  padding: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.settings-wrapper {
+  max-width: 800px;
+  width: 100%;
+}
+
+.page-title {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+/* Profile Card */
+.profile-card {
+  background: #fff;
+  padding: 16px 20px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  max-width: 800px;
+  margin-bottom: 20px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  background: #3aa0f6;
+  border-radius: 50%;
+}
+
+.profile-card h3 {
+  font-size: 15px;
+}
+
+.profile-card p {
+  font-size: 13px;
+  color: #555;
+}
+
+/* Card */
+.card {
+  background: #fff;
+  max-width: 800px;
+  width: 100%;
+  padding: 30px;
+  border-radius: 14px;
+  border: 1px solid #ddd;
+  margin: 20px 0;
+}
+
+.card h2 {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.desc {
+  text-align: center;
+  font-size: 13px;
+  color: #555;
+  margin-bottom: 25px;
+}
+
+/* Form */
+.password-form {
+  max-width: 360px;
+  margin: 0 auto;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  font-size: 13px;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.input-icon {
+  position: relative;
+}
+
+.input-icon input {
+  width: 100%;
+  padding: 10px 38px 10px 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.input-icon i {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #666;
+  cursor: pointer;
+}
+.toggle-password {
+  cursor: pointer;
+  color: #777;
+}
+
+.toggle-password:hover {
+  color: #357abd;
+}
+/* ================= FORCE BUTTON STYLE ================= */
+.form-action .custom-btn-primary {
+  background: linear-gradient(135deg, #4f46e5, #6366f1) !important;
+  color: #fff !important;
+  border: none !important;
+  padding: 12px 22px !important;
+  border-radius: 10px !important;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  box-shadow: 0 6px 18px rgba(79,70,229,0.35);
+  transition: all 0.25s ease;
+}
+
+.form-action .custom-btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px rgba(79,70,229,0.45);
+}
+
+.form-action .custom-btn-primary:active {
+  transform: scale(0.97);
+}
+
+.form-action .custom-btn-cancel {
+  background: #f3f4f6 !important;
+  color: #374151 !important;
+  border: none !important;
+  padding: 12px 22px !important;
+  border-radius: 10px !important;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.form-action .custom-btn-cancel:hover {
+  background: #e5e7eb !important;
+}
+
+.form-action .custom-btn-cancel:active {
+  transform: scale(0.97);
+}

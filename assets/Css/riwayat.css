@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #f8f9fa;
+  display: flex;
+}
+
+/* Content */
+.content {
+  
+  padding: 35px;
+}
+
+.content h1 {
+  margin-bottom: 20px;
+}
